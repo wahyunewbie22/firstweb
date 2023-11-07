@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Assets/Icon/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">WAHYU</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:wahyucandra305@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">FOLLOW ME</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Wahyu Here!</p>
+        <p class="description">IT Support</p>
+        <img src="Assets/Foto/kaka1.png" alt="kaka1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya Adalah Programmer</p>
+        <p class="description">Coding Aja dulu, Jagonya Mah belakangan!</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Kerja Sama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="Assets/Icon/24-hours.png" alt="icon1" class="icon" />
+            <p class="card-title">Saya suka main game</p>
+            <p class="card-description">
+              Game Adalah sarana refresh otak dikala stress melanda otak
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="Assets/Icon/best-price.png" alt="icon1" class="icon" />
+            <p class="card-title">Saya programmer murahan</p>
+            <p class="card-description">
+              Pelayanan jasa yang saya berikan sangat murah dan terjamin
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="Assets/Icon/rating.png" alt="icon1" class="icon" />
+            <p class="card-title">101 Review</p>
+            <p class="card-description">
+              Client saya merasa puas dengan kinerja saya dan memiliki revisi
+              tanpa batas
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Wahyu Candra Website</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/wycra_22";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6285263864349";
+      }
+    </script>
+  </body>
+</html>
